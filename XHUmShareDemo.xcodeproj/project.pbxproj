@@ -14,6 +14,17 @@
 		2FDB39961CBCA4A8005D57BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FDB39951CBCA4A8005D57BA /* Assets.xcassets */; };
 		2FDB39991CBCA4A8005D57BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FDB39971CBCA4A8005D57BA /* LaunchScreen.storyboard */; };
 		2FDB39A41CBCA4A8005D57BA /* XHUmShareDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB39A31CBCA4A8005D57BA /* XHUmShareDemoTests.m */; };
+		2FDB39AF1CBCC0A0005D57BA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDB39AE1CBCC0A0005D57BA /* SystemConfiguration.framework */; };
+		2FDB39B11CBCC0AD005D57BA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDB39B01CBCC0AD005D57BA /* Security.framework */; };
+		2FDB39B31CBCC0B7005D57BA /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDB39B21CBCC0B7005D57BA /* libiconv.tbd */; };
+		2FDB39B51CBCC0C6005D57BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDB39B41CBCC0C6005D57BA /* CoreGraphics.framework */; };
+		2FDB39B71CBCC0D8005D57BA /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDB39B61CBCC0D8005D57BA /* libsqlite3.tbd */; };
+		2FDB39B91CBCC0E2005D57BA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDB39B81CBCC0E2005D57BA /* CoreTelephony.framework */; };
+		2FDB39BB1CBCC0EF005D57BA /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDB39BA1CBCC0EF005D57BA /* libstdc++.tbd */; };
+		2FDB39BD1CBCC0FA005D57BA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDB39BC1CBCC0FA005D57BA /* libz.tbd */; };
+		2FDB39C11CBCE7DA005D57BA /* XHCustomShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDB39C01CBCE7DA005D57BA /* XHCustomShareView.m */; };
+		2FDCDAE61CBF3777009BBD53 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDCDAE51CBF3777009BBD53 /* UIView+Additions.m */; };
+		47B06A5854DCBE7A7040730E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5A3774E00DE72D051504F3 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B5A3774E00DE72D051504F3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FDB39861CBCA4A8005D57BA /* XHUmShareDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHUmShareDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FDB398A1CBCA4A8005D57BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2FDB398C1CBCA4A8005D57BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +52,21 @@
 		2FDB399F1CBCA4A8005D57BA /* XHUmShareDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHUmShareDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FDB39A31CBCA4A8005D57BA /* XHUmShareDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHUmShareDemoTests.m; sourceTree = "<group>"; };
 		2FDB39A51CBCA4A8005D57BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FDB39AE1CBCC0A0005D57BA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2FDB39B01CBCC0AD005D57BA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2FDB39B21CBCC0B7005D57BA /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		2FDB39B41CBCC0C6005D57BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2FDB39B61CBCC0D8005D57BA /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		2FDB39B81CBCC0E2005D57BA /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		2FDB39BA1CBCC0EF005D57BA /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		2FDB39BC1CBCC0FA005D57BA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		2FDB39BF1CBCE7DA005D57BA /* XHCustomShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHCustomShareView.h; sourceTree = "<group>"; };
+		2FDB39C01CBCE7DA005D57BA /* XHCustomShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHCustomShareView.m; sourceTree = "<group>"; };
+		2FDCDAE01CBF302A009BBD53 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2FDCDAE41CBF3777009BBD53 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		2FDCDAE51CBF3777009BBD53 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		506FB5C7776EA621968245FF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8E78601D99098B04C426FF6A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +74,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FDB39BD1CBCC0FA005D57BA /* libz.tbd in Frameworks */,
+				2FDB39BB1CBCC0EF005D57BA /* libstdc++.tbd in Frameworks */,
+				2FDB39B91CBCC0E2005D57BA /* CoreTelephony.framework in Frameworks */,
+				2FDB39B71CBCC0D8005D57BA /* libsqlite3.tbd in Frameworks */,
+				2FDB39B51CBCC0C6005D57BA /* CoreGraphics.framework in Frameworks */,
+				2FDB39B31CBCC0B7005D57BA /* libiconv.tbd in Frameworks */,
+				2FDB39B11CBCC0AD005D57BA /* Security.framework in Frameworks */,
+				2FDB39AF1CBCC0A0005D57BA /* SystemConfiguration.framework in Frameworks */,
+				47B06A5854DCBE7A7040730E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +102,8 @@
 				2FDB39881CBCA4A8005D57BA /* XHUmShareDemo */,
 				2FDB39A21CBCA4A8005D57BA /* XHUmShareDemoTests */,
 				2FDB39871CBCA4A8005D57BA /* Products */,
+				889183C5EC69B7E85BD92D77 /* Pods */,
+				E17B1C7FAF908EFA889ECA25 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,10 +123,11 @@
 				2FDB398D1CBCA4A8005D57BA /* AppDelegate.m */,
 				2FDB398F1CBCA4A8005D57BA /* ViewController.h */,
 				2FDB39901CBCA4A8005D57BA /* ViewController.m */,
+				2FDB39BF1CBCE7DA005D57BA /* XHCustomShareView.h */,
+				2FDB39C01CBCE7DA005D57BA /* XHCustomShareView.m */,
+				2FDCDAE41CBF3777009BBD53 /* UIView+Additions.h */,
+				2FDCDAE51CBF3777009BBD53 /* UIView+Additions.m */,
 				2FDB39921CBCA4A8005D57BA /* Main.storyboard */,
-				2FDB39951CBCA4A8005D57BA /* Assets.xcassets */,
-				2FDB39971CBCA4A8005D57BA /* LaunchScreen.storyboard */,
-				2FDB399A1CBCA4A8005D57BA /* Info.plist */,
 				2FDB39891CBCA4A8005D57BA /* Supporting Files */,
 			);
 			path = XHUmShareDemo;
@@ -97,6 +136,10 @@
 		2FDB39891CBCA4A8005D57BA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2FDCDAE01CBF302A009BBD53 /* PrefixHeader.pch */,
+				2FDB39971CBCA4A8005D57BA /* LaunchScreen.storyboard */,
+				2FDB39951CBCA4A8005D57BA /* Assets.xcassets */,
+				2FDB399A1CBCA4A8005D57BA /* Info.plist */,
 				2FDB398A1CBCA4A8005D57BA /* main.m */,
 			);
 			name = "Supporting Files";
@@ -111,6 +154,31 @@
 			path = XHUmShareDemoTests;
 			sourceTree = "<group>";
 		};
+		889183C5EC69B7E85BD92D77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E78601D99098B04C426FF6A /* Pods.debug.xcconfig */,
+				506FB5C7776EA621968245FF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E17B1C7FAF908EFA889ECA25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FDB39BC1CBCC0FA005D57BA /* libz.tbd */,
+				2FDB39BA1CBCC0EF005D57BA /* libstdc++.tbd */,
+				2FDB39B81CBCC0E2005D57BA /* CoreTelephony.framework */,
+				2FDB39B61CBCC0D8005D57BA /* libsqlite3.tbd */,
+				2FDB39B41CBCC0C6005D57BA /* CoreGraphics.framework */,
+				2FDB39B21CBCC0B7005D57BA /* libiconv.tbd */,
+				2FDB39B01CBCC0AD005D57BA /* Security.framework */,
+				2FDB39AE1CBCC0A0005D57BA /* SystemConfiguration.framework */,
+				2B5A3774E00DE72D051504F3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FDB39A81CBCA4A8005D57BA /* Build configuration list for PBXNativeTarget "XHUmShareDemo" */;
 			buildPhases = (
+				9DE47862722088A3461EA39E /* Check Pods Manifest.lock */,
 				2FDB39821CBCA4A8005D57BA /* Sources */,
 				2FDB39831CBCA4A8005D57BA /* Frameworks */,
 				2FDB39841CBCA4A8005D57BA /* Resources */,
+				8B9AA857F6F4651EBA8DEE49 /* Embed Pods Frameworks */,
+				29B5D9533F1A53CACCA2FBDB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,14 +277,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29B5D9533F1A53CACCA2FBDB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B9AA857F6F4651EBA8DEE49 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DE47862722088A3461EA39E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2FDB39821CBCA4A8005D57BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FDCDAE61CBF3777009BBD53 /* UIView+Additions.m in Sources */,
 				2FDB39911CBCA4A8005D57BA /* ViewController.m in Sources */,
 				2FDB398E1CBCA4A8005D57BA /* AppDelegate.m in Sources */,
 				2FDB398B1CBCA4A8005D57BA /* main.m in Sources */,
+				2FDB39C11CBCE7DA005D57BA /* XHCustomShareView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,22 +462,30 @@
 		};
 		2FDB39A91CBCA4A8005D57BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E78601D99098B04C426FF6A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XHUmShareDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = XHUmShareDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.huahua.XHUmShareDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huahua.LoveFreshBeen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		2FDB39AA1CBCA4A8005D57BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 506FB5C7776EA621968245FF /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XHUmShareDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = XHUmShareDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.huahua.XHUmShareDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huahua.LoveFreshBeen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -404,6 +533,7 @@
 				2FDB39AA1CBCA4A8005D57BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FDB39AB1CBCA4A8005D57BA /* Build configuration list for PBXNativeTarget "XHUmShareDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +542,7 @@
 				2FDB39AD1CBCA4A8005D57BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

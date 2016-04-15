@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  XHUmShareDemo
+//
+//  Created by 江欣华 on 16/4/12.
+//  Copyright © 2016年 jxh. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "UIView+Additions.h"
+
+#define UMAppKey            @"570c660367e58e91600010a5"
+#define WeChatAppId         @"wx158b83676dd3dc08"
+#define WeChatAppSecret     @"795a6f7b8986109c002085a52759df68"
+#define QQAppID             @"1105274162"
+#define QQAppKey            @"U7L3TNEJdW12VOp6"
+
+#define kScreenHeight [[UIScreen mainScreen] bounds].size.height
+#define kScreenWidth [[UIScreen mainScreen] bounds].size.width
+
+#endif /* PrefixHeader_pch */
